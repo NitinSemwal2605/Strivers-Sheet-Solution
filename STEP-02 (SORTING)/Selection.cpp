@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Approach => Find the minimum element in the array and swap it with the first element of the array
+
 void selectionSort(int arr[], int n) {
     for(int i=0; i<n-1; i++) {
         int minIndex = i;
