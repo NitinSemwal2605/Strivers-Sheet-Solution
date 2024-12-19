@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Approach: Compare each element with its previous elements and swap them if they are in the wrong order.
+
 void insertionSort(int arr[], int n) {
     for(int i = 1; i < n; i++) {
-        for(int j = i; j > 0; j--) {
+        for(int j = i; j > 0; j--) { 
             if(arr[j] < arr[j-1]) {
                 swap(arr[j], arr[j-1]);
             } else {
