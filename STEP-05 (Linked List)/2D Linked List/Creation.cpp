@@ -47,6 +47,8 @@ int getLength(Node* head) {
 
     return len;
 }
+
+
 void insertAtHead(Node* &tail, Node* &head, int d) {
 
     //empty list
@@ -192,10 +194,6 @@ int main() {
     print(head);
     cout << "head  " << head -> data << endl;
     cout << "tail  " << tail -> data << endl;
-
-
-
-
 
     return 0;
 }
