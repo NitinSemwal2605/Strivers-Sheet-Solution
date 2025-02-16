@@ -8,7 +8,7 @@ class Node {
     int data;
     Node* next;
 };
-
+A
 class Solution {
     public:
         ListNode* merge(ListNode* left, ListNode* right) {
